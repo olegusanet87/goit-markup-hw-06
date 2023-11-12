@@ -313,6 +313,7 @@ img {
 	max-width: 320px;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin: 0 auto;
 }
 
 @media screen and(min-resolution:192dpi),
@@ -325,7 +326,7 @@ screen and(min-device-pixel-ratio:2) {
 
 .main-title {
 	width: 100%;
-	max-width: 288px;
+	max-width: 180px;
 	color: #ffffff;
 	font-size: 36px;
 	font-weight: bold;
@@ -337,6 +338,7 @@ screen and(min-device-pixel-ratio:2) {
 	margin-bottom: 72px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .main-button {
@@ -1072,7 +1074,7 @@ screen and(min-device-pixel-ratio:2) {
 
 	}
 
-	@media screen and(min-resolution:192dpi),
+	@media screen and (min-width: 768px) and (min-resolution:192dpi),
 	screen and(min-resolution: 2dppx),
 	screen and(min-device-pixel-ratio:2) {
 		.main {
@@ -1260,11 +1262,11 @@ screen and(min-device-pixel-ratio:2) {
 
 
 
-	@media screen and(min-resolution:192dpi),
+	@media screen and (min-width: 1158px) and (min-resolution:192dpi),
 	screen and(min-resolution: 2dppx),
 	screen and(min-device-pixel-ratio:2) {
 		.main {
-			background-image: url(../images/bgimagedesktop@2x.jpg);
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgimagedesktop@2x.jpg);
 		}
 	}
 
