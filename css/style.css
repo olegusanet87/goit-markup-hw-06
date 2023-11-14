@@ -453,7 +453,7 @@ screen and(min-device-pixel-ratio:2) {
 	align-items: center;
 	gap: 24px;
 	line-height: 0;
-	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
 .social-link-item {
@@ -785,8 +785,7 @@ screen and(min-device-pixel-ratio:2) {
 }
 
 .form-container-desc {
-	padding-top: 72px;
-	padding-bottom: 16px;
+	margin-bottom: 16px;
 	width: 256px;
 	color: #2E2F42;
 	text-align: center;
@@ -1117,6 +1116,7 @@ screen and(min-device-pixel-ratio:2) {
 		margin-top: 0;
 	}
 
+
 	/*=================================benefit tablet style========================*/
 
 
@@ -1298,6 +1298,10 @@ screen and(min-device-pixel-ratio:2) {
 	.menu-benefit-item {
 
 		width: calc((100% - 72px) / 4);
+	}
+
+	.dir-desc {
+		font-weight: 400;
 	}
 
 	/*==================================benefit desktop style============================*/
